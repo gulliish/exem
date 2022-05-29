@@ -1,3 +1,17 @@
+:root{
+    --section-bg-color:#E5E5E5;
+    --secondary-bg-color:#757575;
+    --footer-bg-color:#262626;
+    --font-color:#1D1D1D;
+    --second-font-color:#626262;
+    --fonts: 'Roboto', sans-serif;
+    --main-font-weight: 400;
+    --text-fomt-size: 14px;
+    --text-line-height: 24px;
+    --secondary-font-size: 13px;
+    --price-font-size:15px;
+}
+
 *{
     box-sizing: border-box
 }
