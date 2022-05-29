@@ -9,7 +9,8 @@
     --text-fomt-size: 14px;
     --text-line-height: 24px;
     --secondary-font-size: 13px;
-    --price-font-size:15px;
+    --price-font-size: 15px;
+    --list-font-size: 16px;
 }
 
 *{
