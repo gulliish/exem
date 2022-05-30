@@ -1,9 +1,8 @@
 :root{
-    --section-bg-color:#E5E5E5;
     --secondary-bg-color:#757575;
-    --footer-bg-color:#262626;
+    --third-bg-color:#262626;
     --font-color:#1D1D1D;
-    --second-font-color:#626262;
+    --secondary-font-color:#626262;
     --fonts: 'Roboto', sans-serif;
     --main-font-weight: 400;
     --text-font-size: 14px;
