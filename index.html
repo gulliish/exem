@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>UberEats</title>
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,11 +14,16 @@
 <body>
     <header>
         <section class="section header__first-section">
-            <h1 class="title first-section__title">uber </h1>
-            <h1 class="next-title first-section__title">eats</h1>
-            <button class="btn header__button">Sign in </button>
-            <button class="btn header__button-second">Register</button>
-            <svg version="1.1" 
+            <div class="part title-part">
+                <h1 class="title first-section__title">uber </h1>
+                <h1 class="next-title first-section__title">eats</h1>
+            </div>
+            <div class="part btn-part">
+                <button class="btn header__button">Sign in </button>
+                <button class="btn header__button-second">Register</button>
+            </div>
+            <svg class="icon-bag"
+            version="1.1" 
             id="Layer_1" 
             xmlns="http://www.w3.org/2000/svg" 
             xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -35,15 +40,16 @@
                 c-0.973,1.026-2.339,1.615-3.751,1.615H733.405c-1.37,0-2.707-0.558-3.672-1.534c-0.942-0.95-1.483-2.257-1.492-3.597l5.423-114.806
                 h24.731v15.173c0,3.309,2.682,5.991,5.991,5.991c3.309,0,5.991-2.682,5.991-5.991v-15.173h67.917v15.173
                 c0,3.309,2.682,5.991,5.991,5.991c3.309,0,5.99-2.682,5.99-5.991v-15.173h23.321l6.313,114.49
-                C879.99,979.98,879.478,981.377,878.507,982.402z" fill="white"></path>
+                C879.99,979.98,879.478,981.377,878.507,982.402z"></path>
                 </svg>
         </section>
         <section class="section header__second-section">
-            <img src="./assets/first.png" alt="meal">
-            <div second-section__content>
-                <h1 class="title content__title">Трактир «Пушкин»</h1>
-                <p class="secondary-text content__text">₽₽₽ • Европейская</p>
-                <div class="content__num">40 - 50 Min</div>
+            <div class="header__img">
+                <div class=" second-section__content">
+                    <h1 class="title content__title">Трактир «Пушкин»</h1>
+                    <p class="secondary-text content__text">₽₽₽ • Европейская</p>
+                    <div class="content__num">40 - 50 Min</div>
+                </div>
             </div>
         </section>
         <section class="section header__third-section">
@@ -62,44 +68,54 @@
     <main class="main">
         <section class="section main-section">
             <h2 class="title main-section__title">Закуски</h2>
+            <p class="secondary-text main__section-text">________</p>
             <div class="section__cards">
-                <p class="text card__text">Сельдь на бородинском хлебе</p>
+                <p class="text card__text-first">Сельдь на бородинском хлебе</p>
+                <p class="text card__text">Сельдь на бородинском...</p>
                 <p class="secondary-text sebtext">С яйцом и огурцом</p>
                 <p class="price">240 ₽</p>
                 <img src="./assets/second.png" alt="reastaurant meal's photo" class="img">
             </div>
+            <div class="edge"></div>
             <div class="section__cards">
                 <p class="text card__text">Грибы маринованные</p>
                 <p class="price">300 ₽</p>
                 <img src="./assets/third.png" alt="reastaurant meal's photo" class="img">
             </div>
+            <div class="edge"></div>
             <div class="section__cards">
                 <p class="text card__text">Малосольная семга</p>
                 <p class="price">390 ₽</p>
                 <img src="./assets/fourth.png" alt="reastaurant meal's photo" class="img">
             </div>
+            <div class="edge"></div>
             <div class="section__cards">
                 <p class="text card__text">Соленья ассорти</p>
                 <p class="price">320 ₽</p>
                 <img src="./assets/fifth.png" alt="reastaurant meal's photo" class="img">
             </div>
+            <div class="edge"></div>
             <div class="section__cards">
                 <p class="text card__text">Сало домашнее с горчицей</p>
                 <p class="price">320 ₽</p>
                 <img src="./assets/sixth.png" alt="reastaurant meal's photo" class="img">
             </div>
+            <div class="edge"></div>
             <div class="section__cards">
                 <p class="text card__text">Язык говяжий с хреном</p>
                 <p class="price">350 ₽</p>
                 <img src="./assets/seventh.png" alt="reastaurant meal's photo" class="img">
+                <img class="line" height="1px"src="./assets/Rectangle 7.png" alt="line">
             </div>
         </section>
     </main>
     <footer>
         <section class="section footer__first-section">
-            <h1 class="title footer__title">uber</h1>
-            <h1 class="next-title footer__title">eats</h1>
-            <div>________________________________________</div>
+            <div class="footer-part">
+                <h1 class="footer__title">uber</h1>
+                <h1 class="next-title footer__title-srcond">eats</h1>
+            </div>
+            <img height="1px" src="./assets/Rectangle 7.png" alt="line" class="line">
         </section>
         <section class="section footer__second-section">
             <select id="language-select">
@@ -192,22 +208,23 @@
                     </div>
                 </div>
                 <div class="footer__content-second">
-                    <p class="text footer__text">About UberEats</p>
-                    <p class="text footer__text">Become a Delivery Partner</p>
-                    <p class="text footer__text">Become a Restaurant Partner</p>
+                    <p class="secondary-text footer__text">About UberEats</p>
+                    <p class="secondary-text footer__text">Become a Delivery Partner</p>
+                    <p class="secondary-text footer__text">Become a Restaurant Partner</p>
                 </div>
                 <div class="footer__content-third">
-                    <p class="text footer__text">See all cities</p>
-                    <p class="text footer__text">Pricing</p>
-                    <p class="text footer__text">Help</p>
-                    <p class="text footer__text">FAQs</p>
+                    <p class="secondary-text footer__text">See all cities</p>
+                    <p class="secondary-text footer__text">Pricing</p>
+                    <p class="secondary-text footer__text">Help</p>
+                    <p class="secondary-text footer__text">FAQs</p>
                 </div>
             </div>
         </section>
         <section class="section footer__third-section">
-            <p class="text footer__text">© 2017 Uber Technologies Inc.</p>
-            <p class="text footer__text">Privacys</p>
-            <p class="text footer__text">Terms</p>
+            <img class="line" height="1px"src="./assets/Rectangle 7.png" alt="line">
+            <p class="secondary-text footer__text">© 2017 Uber Technologies Inc.</p>
+            <p class="secondary-text footer__text">Privacys</p>
+            <p class="secondary-text footer__text">Terms</p>
         </section>
     </footer>
 </body>
