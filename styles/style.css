@@ -53,8 +53,12 @@
     border: 1px solid #E0E0E0;
     border-radius: 2px;
 }
+
 .header__button-second {
     color: #ffffff;
+}
+.btn:hover{
+    cursor: pointer;
 }
 .header__second-section {
     padding: 0;
@@ -165,11 +169,9 @@
 .footer__second-section {
     width: 100vw;
     height: 494px;
-    padding: 32px 10px 40px 5px;
-    position: relative;
+    padding: 32px 10px 0 5px;
 }
 #language-select{
-    position: relative;
     width: 173px;
     height: 40px;
     background: #3B3B3B;
@@ -226,6 +228,11 @@
 .header__button:hover {
     color: #ffffff;
 }
+.icon {
+    position: absolute;
+    margin-top: 8px;
+    left: 20px;
+}
 @media (max-width:320px) {
     .icon-bag,.card__text-first,.header__third-section{
         display: none;
@@ -244,8 +251,9 @@
     .second-section__content{
         top: 131px;
     }
-    .footer__third-section, .footer__content-first,.footer__content-second,.footer__content-third,.second-section__content{
+    .footer__third-section,.footer__content, .footer__content-first,.footer__content-second,.footer__content-third,.second-section__content{
         flex-direction: column;
+        flex-wrap: nowrap;
     }
     .footer__third-section {
         flex-wrap: nowrap;
@@ -261,11 +269,6 @@
     .section__cards {
         height: 102px;
         margin-top: 16px;
-    }
-    .icon {
-        position: absolute;
-        top: 40px;
-        left: 20px;
     }
 }
 @media (min-width:320px){
@@ -304,9 +307,7 @@
         margin-bottom: 49px;
     }
     .footer__content {
-        display: flex;
-        padding: 32px 10px 48px 5px;
-        gap: 89px;
+        padding: 32px 81px 48px 87px;
     }
 }
 @media (min-width:768px){
@@ -351,8 +352,24 @@
         margin-bottom: 80px;
     }
     .footer__content {
-        display: flex;
         gap: 140px;
-        padding: 32px 81px 48px 87px;
+    }
+    .icon {
+        position: absolute;
+        margin-top: 8px;
+        left: 100px;
+    }
+    .footer__two-contents{
+        margin-left: 94px;
+        display: flex;
+        gap: 130px;
+    }
+    .footer__second-section {
+        width: 100vw;
+        height: 494px;
+        padding: 81px 80px 80px 100px;
+    }
+    .icon{
+        margin-left: 15px;
     }
 }
