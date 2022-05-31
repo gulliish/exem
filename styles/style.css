@@ -146,6 +146,7 @@
 }
 .line{
     width: 100vw;
+    height: 1px;
 }
 .footer-part{
     height: 116px;
